@@ -26,7 +26,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@android:color/darker_gray"/>
+        android:background="@color/dashboard_category_bg"/>
     <TextView
         android:id="@+id/error"
         android:layout_width="match_parent"
