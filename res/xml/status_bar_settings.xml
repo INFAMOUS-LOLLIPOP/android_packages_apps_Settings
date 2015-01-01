@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright (C) 2014 The CyanogenMod Project
+     Copyright (C) 2013 SlimRoms Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -35,14 +36,25 @@
         android:title="@string/status_bar_notif_count_title"
         android:summary="@string/status_bar_notif_count_summary"
         android:defaultValue="false" />
-
+                
     <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
         android:key="status_bar_show_weather"
         android:title="@string/status_bar_show_weather_title"
         android:summary="@string/status_bar_show_weather_summary"
         android:defaultValue="true" />
 
-    <ListPreference
+                                   
+        
+    <!-- Status bar tweaks -->
+    <PreferenceCategory
+        android:title="@string/status_bar_style_title">
+
+        <PreferenceScreen
+            android:fragment="com.android.settings.infamous.StatusBarClockStyle"
+            android:key="clock_style_pref"
+            android:title="@string/status_bar_clock" />
+            
+     <ListPreference
         android:key="status_bar_battery_style"
         android:title="@string/status_bar_battery_style_title"
         android:dialogTitle="@string/status_bar_battery_style_title"
@@ -55,5 +67,7 @@
         android:dialogTitle="@string/status_bar_battery_percentage_dialog_title"
         android:entries="@array/status_bar_battery_percentage_entries"
         android:entryValues="@array/status_bar_battery_percentage_values" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
