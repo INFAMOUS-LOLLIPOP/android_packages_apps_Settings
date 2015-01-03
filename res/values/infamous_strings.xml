@@ -53,11 +53,16 @@
 
     <!-- Advanced, Device specific (DeviceParts) settings  -->
     <string name="device_settings_title">Device</string>
+    
+<!-- Behind The Mask -->
+    <string name="infamous_settings_title"><i><b>Behind The Mask</b></i></string>
 
     <!-- Status bar -->
-    <string name="status_bar_title"><i><b>Status Bar Mods</b></i></string>
-    <string name="status_bar_style_title">Style and Tweaks</string>
     <string name="infamous_cat_title">Infamous Mods</string>
+    <string name="status_bar_title">Status Bar Mods</string>
+    <string name="status_bar_style_title">Style and Tweaks</string>
+    
+
     <!-- Status bar | Clock -->
     <string name="status_bar_clock">Clock and date</string>
     <string name="status_bar_clock_title">Clock and date style</string>
@@ -98,7 +103,8 @@
     <string name="clock_font_condensed">Condensed</string>
     <string name="clock_font_light_italic">Light Italic</string>
     <string name="clock_font_infamous">Infamous Font</string>
-    <!-- Behind The Mask -->
-    <string name="infamous_settings_title"><i><b>Behind The Mask</b></i></string>
+
+    <!-- SuperSU -->
+    <string name="supersu_title">SuperSU</string>
 		
 </resources>
