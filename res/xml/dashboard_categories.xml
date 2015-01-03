@@ -70,7 +70,7 @@
                 />
     </dashboard-category>
 
-    <!-- Personalization -->
+    <!-- Infamous Settings -->
     <dashboard-category
             android:id="@+id/device_personalization"
             android:title="@string/header_category_personalization" >
@@ -83,14 +83,6 @@
                 android:icon="@drawable/ic_settings_infamoustweaks"
                 />        
                 
-         <!-- Buttons -->
-
-        <dashboard-tile
-                android:id="@+id/button_settings"
-                android:title="@string/button_pref_title"
-                android:fragment="com.android.settings.ButtonSettings"
-                android:icon="@drawable/ic_settings_home"
-                />
     </dashboard-category>
 
     <!-- DEVICE -->
