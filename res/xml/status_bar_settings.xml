@@ -47,18 +47,8 @@
             android:defaultValue="true" />
 
     </PreferenceCategory>
-    
-    <!-- Status bar tweaks -->
-    <PreferenceCategory
-        android:title="@string/status_bar_clock_cat">
 
-        <PreferenceScreen
-            android:fragment="com.android.settings.infamous.StatusBarClockStyle"
-            android:key="clock_style_pref"
-            android:title="@string/status_bar_clock" />
-     
-    </PreferenceCategory>
-     
+    <!-- Battery -->
     <PreferenceCategory
          android:title="@string/status_bar_battery_cat">
 
@@ -77,6 +67,28 @@
             android:entryValues="@array/status_bar_battery_percentage_values" />
 
     </PreferenceCategory>
-    
+
+    <!-- Status bar clock -->
+    <PreferenceCategory
+        android:title="@string/status_bar_clock_cat">
+
+        <PreferenceScreen
+            android:fragment="com.android.settings.infamous.StatusBarClockStyle"
+            android:key="clock_style_pref"
+            android:title="@string/status_bar_clock" />
+
+    </PreferenceCategory>
+
+    <!-- Network Traffic -->
+    <PreferenceCategory
+        android:title="Network Traffic">
+
+        <PreferenceScreen
+            android:key="network_traffic_state"
+	        android:fragment="com.android.settings.infamous.NetworkTraffic"
+	        android:title="@string/network_traffic_title" />
+
+    </PreferenceCategory>
+
 
 </PreferenceScreen>
