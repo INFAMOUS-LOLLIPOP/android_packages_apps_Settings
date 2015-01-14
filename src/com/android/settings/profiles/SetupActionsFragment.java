@@ -204,7 +204,7 @@ public class SetupActionsFragment extends SettingsPreferenceFragment
         super.onCreateOptionsMenu(menu, inflater);
         if (!mNewProfileMode) {
             menu.add(0, MENU_REMOVE, 0, R.string.profile_menu_delete_title)
-                    .setIcon(R.drawable.ic_menu_trash_holo_dark)
+                    .setIcon(R.drawable.ic_actionbar_delete)
                     .setAlphabeticShortcut('d')
                     .setEnabled(true)
                     .setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM |
@@ -400,6 +400,20 @@ public class SetupActionsFragment extends SettingsPreferenceFragment
     }
 
     private void requestRemoveProfileDialog() {
+        Profile current = mProfileManager.getActiveProfile();
+        if (mProfile.getUuid().equals(current.getUuid())) {
+            AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+            builder.setMessage(getString(R.string.profile_remove_current_profile));
+            builder.setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    dialog.dismiss();
+                }
+            });
+            builder.show();
+            return;
+        }
+
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         builder.setMessage(getString(R.string.profile_remove_dialog_message, mProfile.getName()));
         builder.setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {

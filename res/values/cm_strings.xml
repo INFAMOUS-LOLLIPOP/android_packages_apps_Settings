@@ -68,6 +68,7 @@
     <string name="profile_remove_dialog_message">Remove profile %1$s?</string>
     <string name="profile_populate_profile_from_state">Configure profile using current device settings?</string>
     <string name="profile_menu_fill_from_state">Import current device settings</string>
+    <string name="profile_remove_current_profile">Cannot delete current profile!</string>
 
     <!-- Add Profile -->
     <string name="add_profile_dialog_title">Create new profile</string>
@@ -208,6 +209,21 @@
     <string name="backlight_summary_disabled">Disabled</string>
     <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">Enabled</string>
+
+    <!-- Power menu -->
+    <string name="power_menu_title">Power menu</string>
+    <string name="power_menu_power_title">Power off</string>
+    <string name="power_menu_reboot_title">Reboot menu</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_profiles_title">Profile switcher</string>
+    <string name="power_menu_airplane_title">Airplane mode</string>
+    <string name="power_menu_users_title">User switcher</string>
+    <string name="power_menu_settings_title">Settings shortcut</string>
+    <string name="power_menu_lockdown_title">Device lockdown</string>
+    <string name="power_menu_bug_report_title">Bug report</string>
+    <string name="power_menu_sound_title">Sound panel</string>
+    <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+    <string name="power_menu_profiles_disabled">System profiles are disabled</string>
 
     <!-- Backlight brightness settings screen -->
     <string name="adaptive_backlight_title">Adaptive backlight</string>
