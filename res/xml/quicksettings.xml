@@ -16,7 +16,7 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/qs_title">
-
+  <!-- Quick Settings -->
     <PreferenceCategory
         android:title="@string/qs_category_title">
       
@@ -38,12 +38,24 @@
             android:summaryOff="@string/qs_main_tiles_summary_off"
             android:defaultValue="true" />
 
+        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+            android:key="qs_location_advanced"
+            android:title="@string/qs_advanced_location_title"
+            android:summary="@string/qs_advanced_location_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
-    <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
-        android:key="qs_location_advanced"
-        android:title="@string/qs_advanced_location_title"
-        android:summary="@string/qs_advanced_location_summary"
-        android:defaultValue="false" />
+    <!-- Brightness Slider -->
+    <PreferenceCategory
+        android:title="Brightness Slider">
+      
+        <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+            android:key="qs_show_brightness_slider"
+            android:title="@string/qs_brightness_slider_title"
+            android:summary="@string/qs_brightness_slider_summary"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
