@@ -22,13 +22,13 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.cyanogenmod.qs.QSTiles;
 
-public class NotificationDrawerSettings extends SettingsPreferenceFragment {
+public class QuickSettings extends SettingsPreferenceFragment {
     private Preference mQSTiles;
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.notification_drawer_settings);
+        addPreferencesFromResource(R.xml.quicksettings);
 
         mQSTiles = findPreference("qs_order");
     }

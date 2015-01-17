@@ -950,8 +950,8 @@
     <string name="notification_volume_option_title">Notification volume</string>
 
     <!-- Notification drawer -->
-    <string name="notification_drawer_title">Notification drawer</string>
-    <string name="qs_category_title">Quick Settings</string>
+    <string name="qs_title">Quick Settings</string>
+    <string name="qs_category_title">Quick Settings </string>
     <string name="qs_order_title">Select and order tiles</string>
     <string name="add_qs">Add new tile</string>
     <string name="cast_screen">Cast screen</string>
@@ -964,6 +964,7 @@
     <string name="qs_main_tiles_summary_off">Three tiles on each row</string>
     <string name="qs_advanced_location_title">Advanced location quick settings</string>
     <string name="qs_advanced_location_summary">Enable advanced settings for location in quick settings</string>
+    <string name="qs_notifications_label">Notifications</string>
 
     <!-- Themes Settings -->
     <!-- Settings main menu entry -->
