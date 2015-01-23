@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.crdroid;
+package com.android.settings.infamous;
 
 import android.app.admin.DevicePolicyManager;
 import android.content.ContentResolver;
@@ -32,10 +32,10 @@ import android.preference.SwitchPreference;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class LockcrDroid extends SettingsPreferenceFragment
+public class LockScreen extends SettingsPreferenceFragment
         implements OnSharedPreferenceChangeListener {
 
-    private static final String TAG = "LockcrDroid";
+    private static final String TAG = "LockScreen";
 
     private static final String KEY_LOCKSCREEN_CAMERA_WIDGET_HIDE = "camera_widget_hide";
 
@@ -46,7 +46,7 @@ public class LockcrDroid extends SettingsPreferenceFragment
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.crdroid_lockscreen);
+        addPreferencesFromResource(R.xml.infamous_lockscreen);
 
         PreferenceScreen prefSet = getPreferenceScreen();
         PackageManager pm = getPackageManager();

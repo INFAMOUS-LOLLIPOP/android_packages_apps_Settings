@@ -66,14 +66,13 @@
     <string name="status_bar_clock_cat">Clock and Date Style and Tweaks</string>
     <string name="status_bar_battery_cat">Battery Style and Tweaks</string>
 
- <!-- Camera lockscreen swipe -->
- <string name="camera_widget_hide">Disable lockscreen camera</string>
- <string name="camera_widget_hide_summary">Allows you to disable swipe to open camera in lockscreen</string>
+    <!-- Camera lockscreen swipe -->
+    <string name="camera_widget_hide">Disable lockscreen camera</string>
+    <string name="camera_widget_hide_summary">Allows you to disable swipe to open camera in lockscreen</string>
 
-
- <!-- crDroid lockscreen -->
- <string name="crdroid_lock_title">Lockscreen crDroid</string>
- <string name="lockscreen_category">Lockscreen settings</string>
+    <!-- Infamous lockscreen -->
+    <string name="infamous_lock_title">Lockscreen</string>
+    <string name="lockscreen_category">Lockscreen settings</string>
    
     <!-- Status bar | Clock -->
     <string name="status_bar_clock">Clock and date</string>
