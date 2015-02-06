@@ -58,7 +58,7 @@ public class QuickSettings extends SettingsPreferenceFragment {
                             new ArrayList<SearchIndexableResource>();
 
                     SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.notification_drawer_settings;
+                    sir.xmlResId = R.xml.quicksettings;
                     result.add(sir);
 
                     return result;

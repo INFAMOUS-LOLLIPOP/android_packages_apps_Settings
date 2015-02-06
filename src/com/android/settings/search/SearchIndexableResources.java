@@ -33,7 +33,7 @@ import com.android.settings.SecuritySettings;
 import com.android.settings.WirelessSettings;
 import com.android.settings.accessibility.AccessibilitySettings;
 import com.android.settings.bluetooth.BluetoothSettings;
-import com.android.settings.cyanogenmod.NotificationDrawerSettings;
+import com.android.settings.cyanogenmod.QuickSettings;
 import com.android.settings.cyanogenmod.StatusBarSettings;
 import com.android.settings.deviceinfo.Memory;
 import com.android.settings.fuelgauge.BatterySaverSettings;
@@ -280,12 +280,12 @@ public final class SearchIndexableResources {
                         StatusBarSettings.class.getName(),
                         R.drawable.ic_settings_extdesk_hidenavbar));
 
-        sResMap.put(NotificationDrawerSettings.class.getName(),
+        sResMap.put(QuickSettings.class.getName(),
                 new SearchIndexableResource(
-                        Ranking.getRankForClassName(NotificationDrawerSettings.class.getName()),
-                        R.xml.notification_drawer_settings,
-                        NotificationDrawerSettings.class.getName(),
-                        R.drawable.ic_settings_notification_drawer));
+                        Ranking.getRankForClassName(QuickSettings.class.getName()),
+                        R.xml.quicksettings,
+                        QuickSettings.class.getName(),
+                        R.drawable.ic_quicksettings));
 
         sResMap.put(com.android.settings.cyanogenmod.PrivacySettings.class.getName(),
                 new SearchIndexableResource(
