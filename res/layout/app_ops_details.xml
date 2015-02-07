@@ -27,7 +27,6 @@
         android:id="@+id/all_details"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/dashboard_category_bg"
         android:paddingBottom="5dip"
         android:orientation="vertical">
 
