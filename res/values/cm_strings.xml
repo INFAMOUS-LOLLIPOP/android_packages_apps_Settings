@@ -263,6 +263,9 @@
     <string name="block_notifications_summary">Manage ignored notifications and filters</string>
     <string name="no_filters_title">No filters set</string>
 
+    <!-- CM Updater -->
+    <string name="cmupdate_settings_title">CyanogenMod updates</string>
+
     <!-- About phone screen, Infamous version -->
     <string name="infamous_version">mod version</string>
     <string name="infamous_version_default">Unknown</string>
@@ -890,6 +893,8 @@
     <string name="notification_volume_option_title">Notification volume</string>
 
     <!-- Notification drawer -->
+    <string name="notification_drawer_title">Notification drawer</string>
+
     <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
     <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down Quick Settings</string>
 
