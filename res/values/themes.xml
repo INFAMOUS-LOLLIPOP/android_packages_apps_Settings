@@ -64,9 +64,6 @@
 
     <style name="Theme.WifiDialog" parent="@*android:style/Theme.Material.Dialog.Alert">
         <item name="android:windowSoftInputMode">adjustResize</item>
-        <item name="android:colorPrimary">@color/theme_primary</item>
-        <item name="android:colorPrimaryDark">@color/theme_primary_dark</item>
-        <item name="android:colorAccent">@color/theme_accent</item>
         <item name="ic_menu_add">@drawable/ic_menu_add_dark</item>
         <item name="ic_menu_moreoverflow">@*android:drawable/ic_menu_moreoverflow_material</item>
         <item name="ic_wps">@drawable/ic_wps_dark</item>
