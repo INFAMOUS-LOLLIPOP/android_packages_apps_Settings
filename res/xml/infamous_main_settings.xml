@@ -29,6 +29,7 @@
                 android:fragment="com.android.settings.infamous.AnimationSettings"
                 android:layout="@layout/infamous_animations"
                 android:icon="@drawable/ic_animations" />
+
     <!-- Buttons -->
         <PreferenceScreen
                 android:id="@+id/button_settings"
@@ -36,25 +37,21 @@
                 android:fragment="com.android.settings.ButtonSettings"
                 android:layout="@layout/infamous_buttons"
                 android:icon="@drawable/ic_settings_infamous_buttons" />
+    
     <!-- Density changer -->
         <PreferenceScreen
                 android:key="density_changer"
                 android:title="@string/lcd_density_title"
                 android:layout="@layout/infamous_density"
                 android:fragment="com.android.settings.infamous.Density" />
+    
     <!-- Lockscreen Settings-->
         <PreferenceScreen
                 android:key="lock_infamous"
                 android:title="@string/infamous_lock_title"
                 android:layout="@layout/infamous_lockscreen"
                 android:fragment="com.android.settings.infamous.LockScreen" />
-    <!-- Quick Settings -->
-        <PreferenceScreen
-                android:id="@+id/quick_settings"
-                android:title="@string/qs_title"
-                android:fragment="com.android.settings.cyanogenmod.QuickSettings"
-                android:layout="@layout/infamous_quicksettings"
-                android:icon="@drawable/ic_quicksettings" />
+    
     <!-- Power Menu -->
         <PreferenceScreen
                 android:key="power_menu"
@@ -63,12 +60,27 @@
                 android:layout="@layout/infamous_powermenu" 
                 android:icon="@drawable/ic_powermenu" />
     
+    <!-- Quick Settings -->
+        <PreferenceScreen
+                android:id="@+id/quick_settings"
+                android:title="@string/qs_title"
+                android:fragment="com.android.settings.cyanogenmod.QuickSettings"
+                android:layout="@layout/infamous_quicksettings"
+                android:icon="@drawable/ic_quicksettings" />
+
+    <!-- Recent Panel -->
+        <PreferenceScreen
+                android:id="@+id/infamous_recent_panel"
+                android:title="Recents Panel"
+                android:fragment="com.android.settings.infamous.RecentPanel"
+                android:layout="@layout/infamous_recent_panel" />
+	
     <!-- Screen Recorder -->
-    <PreferenceScreen
-         android:key="screen_recorder"
-         android:title="@string/screen_recorder_title"
-         android:fragment="com.android.settings.crdroid.ScreenRecorderSettings"
-         android:layout="@layout/infamous_screenrecorder" />
+        <PreferenceScreen
+                android:key="screen_recorder"
+                android:title="@string/screen_recorder_title"
+                android:fragment="com.android.settings.crdroid.ScreenRecorderSettings"
+                android:layout="@layout/infamous_screenrecorder" />
     
     <!-- Status bar tweaks -->
         <PreferenceScreen
