@@ -24,21 +24,11 @@
         android:id="@+id/powermenu"
         android:title="@string/powermenu_category"
         android:fragment="com.android.settings.infamous.PowerMenu" />
-    
-    <SwitchPreference
-        android:key="power"
-        android:title="@string/power_menu_power_title"
-        android:defaultValue="true" />
 
     <SwitchPreference
         android:key="reboot"
         android:title="@string/power_menu_reboot_title"
         android:defaultValue="true" />
-
-    <SwitchPreference
-        android:key="screenshot"
-        android:title="@string/power_menu_screenshot_title"
-        android:defaultValue="false" />
 
     <SwitchPreference
         android:key="profile"
