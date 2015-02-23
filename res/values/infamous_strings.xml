@@ -143,7 +143,7 @@
     <string name="supersu_title">SuperSU</string>
 
     <!-- Advanced reboot options -->
-    <string name="powermenu_category">Power Menu</string>
+    <string name="powermenu_category">Advanced Reboot</string>
     <string name="advanced_reboot_title">Advanced reboot</string>
     <string name="advanced_reboot_summary">Include options in the power menu for rebooting into recovery and bootloader</string>
     <string name="advanced_reboot_dialog_title">Advanced reboot menu</string>
@@ -273,11 +273,14 @@
     <string name="screen_recorder_power_menu_summary">Add a Screen Record entry in the power menu</string>
 
     <!-- Recents panel settings -->
-    <string name="recents_panel_settings">Recents panel settings</string>
-    <string name="show_clear_all_recents_button_title">Clear all recents button</string>
+    <string name="show_clear_all_recents_button_title">Clear All Recents Button</string>
     <string name="show_clear_all_recents_button_summary">Show clear all button on recents panel</string>
     <string name="recents_clear_all_location_title">Clear all recents location</string>
-    <string name="recents_clear_all_location_right">Top right</string>
-    <string name="recents_clear_all_location_left">Top left</string>
+    <string name="recents_clear_all_location_top_right">Top right</string>
+    <string name="recents_clear_all_location_top_left">Top left</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
 
 </resources>
