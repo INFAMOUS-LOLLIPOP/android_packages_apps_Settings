@@ -37,6 +37,13 @@
                 android:summary="@string/auto_brightness_summary"
                 android:persistent="false" />
 
+        <!-- LiveDisplay -->
+        <PreferenceScreen
+                android:key="live_display"
+                android:title="@string/live_display_title"
+                android:summary="@string/live_display_summary"
+                android:fragment="com.android.settings.livedisplay.LiveDisplay" />
+
         <!-- Rotation modes -->
         <PreferenceScreen
                 android:key="display_rotation"
@@ -59,12 +66,13 @@
                 android:entries="@array/screen_timeout_entries"
                 android:entryValues="@array/screen_timeout_values" />
 
-        <!-- Doze // Ambient display -->
+        <!-- Wake on plug -->
         <SwitchPreference
-                android:key="doze"
-                android:title="@string/doze_title"
-                android:summary="@string/doze_summary"
-                android:persistent="false" />
+                android:key="wake_when_plugged_or_unplugged"
+                android:title="@string/wake_when_plugged_or_unplugged_title"
+                android:summary="@string/wake_when_plugged_or_unplugged_summary"
+                android:defaultValue="false"
+                settings:advanced="true"/>
 
         <!-- Cast screen -->
         <PreferenceScreen
